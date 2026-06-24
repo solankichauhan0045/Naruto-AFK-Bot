@@ -1,26 +1,24 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "NARUTO THE GOD",
+    "username": "NarutoTheGod",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "LEGENDS_WORLD.aternos.me",
-    "port": 26218
-
-,
-    "version": "1.21.1"
+    "port": 26218,
+    "version": "1.21.10"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "Perzuu"
     },
     "anti-afk": {
@@ -30,7 +28,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 5000,
       "messages": [
         "I'm a regular player",
         "Subscribe to Perzaan Gaming!",
@@ -79,8 +77,8 @@
     "place-night": true
   },
   "discord": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "enabled": false,
+    "webhookUrl": "",
     "events": {
       "connect": true,
       "disconnect": true,
