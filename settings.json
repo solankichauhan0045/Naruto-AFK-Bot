@@ -5,62 +5,74 @@
     "password": "",
     "type": "offline"
   },
+
   "server": {
     "ip": "LEGENDS_WORLD.aternos.me",
     "port": 26218,
-    "version": "1.21.10"
+    "version": "1.21.4"
   },
+
   "position": {
     "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
   },
+
   "utils": {
     "auto-auth": {
       "enabled": false,
       "password": "Perzuu"
     },
+
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
+
     "chat-messages": {
       "enabled": true,
       "repeat": true,
       "repeat-delay": 5000,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
         "I like to play Minecraft!"
       ]
     },
+
     "chat-log": true,
+
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
+
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
       "max-interval": 60
     }
   },
+
   "movement": {
     "enabled": true,
+
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
+
     "look-around": {
       "enabled": true,
       "interval": 5000
     },
+
     "random-jump": {
       "enabled": true,
       "interval": 10000
     }
   },
+
   "modules": {
     "avoidMobs": true,
     "combat": true,
@@ -68,14 +80,17 @@
     "chat": true,
     "console-commands": true
   },
+
   "combat": {
     "attack-mobs": true,
     "auto-eat": true
   },
+
   "beds": {
     "pick-up-day": true,
     "place-night": true
   },
+
   "discord": {
     "enabled": false,
     "webhookUrl": "",
@@ -85,6 +100,7 @@
       "chat": false
     }
   },
+
   "chat": {
     "respond": true
   }
