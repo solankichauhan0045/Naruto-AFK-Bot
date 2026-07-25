@@ -5,31 +5,26 @@
     "password": "",
     "type": "offline"
   },
-
   "server": {
-    "ip": " kaisersmp.aternos.me",
+    "ip": "kaisersmp.aternos.me",
     "port": 58492,
-    "version": "26.2"
+    "version": false
   },
-
   "position": {
     "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
   },
-
   "utils": {
     "auto-auth": {
       "enabled": false,
       "password": "Perzuu"
     },
-
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
-
     "chat-messages": {
       "enabled": true,
       "repeat": true,
@@ -39,40 +34,32 @@
         "I like to play Minecraft!"
       ]
     },
-
     "chat-log": true,
-
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
-
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
       "max-interval": 60
     }
   },
-
   "movement": {
     "enabled": true,
-
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
-
     "look-around": {
       "enabled": true,
       "interval": 5000
     },
-
     "random-jump": {
       "enabled": true,
       "interval": 10000
     }
   },
-
   "modules": {
     "avoidMobs": true,
     "combat": true,
@@ -80,17 +67,14 @@
     "chat": true,
     "console-commands": true
   },
-
   "combat": {
     "attack-mobs": true,
     "auto-eat": true
   },
-
   "beds": {
     "pick-up-day": true,
     "place-night": true
   },
-
   "discord": {
     "enabled": false,
     "webhookUrl": "",
@@ -100,7 +84,6 @@
       "chat": false
     }
   },
-
   "chat": {
     "respond": true
   }
